@@ -5,7 +5,7 @@ $(document).ready(function(e) {
 		navigator.notification.alert("Dezlizo a la izquierda",function(){"Aplicacion5","Aceptar"});	
 });//barrer izquierda
 
-$('derecha').on ("swiperight",function(){
+$('#derecha').on ("swiperight",function(){
 	navigator.notification.confirm("¿Que quieres hacer?",function(opt){
 		switch(opt)
 		{

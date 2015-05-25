@@ -2,7 +2,7 @@
 $(document).ready(function(e) {
     document.addEventListener("deviceready",function(){
 	$('#izquierda').on ("swipeleft",function(){
-		navigator.notification.alert("Dezlizo a la izquierda",function(){"Aplicacion05","aceptar"}};	
+		navigator.notification.alert("Dezlizo a la izquierda",function(){"Aplicacion5","Aceptar"});	
 });//barrer izquierda
 
 $('derecha').on ("swiperight",function(){
@@ -18,8 +18,8 @@ $('derecha').on ("swiperight",function(){
 			break;
 		}//switch opt
 	},"Aplicacion05","Beep,Vibrar,Cancelar");//confirm
-}};//barrer derecha
+});//barrer derecha
 },false);//ready device
 
-}};//document
+});//document
 
